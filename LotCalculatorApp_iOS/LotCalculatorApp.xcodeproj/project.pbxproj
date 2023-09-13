@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9337082329C1EE2D00D0A287 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 9337082229C1EE2D00D0A287 /* Realm */; };
+		9337082529C1EE2D00D0A287 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9337082429C1EE2D00D0A287 /* RealmSwift */; };
+		937E55B529FAA62E00441528 /* ResultLotSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937E55B429FAA62E00441528 /* ResultLotSize.swift */; };
+		93B830582A0D1B720062ACC3 /* SliderPips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B830572A0D1B720062ACC3 /* SliderPips.swift */; };
+		93C38EBB29A8FAAC002FB0BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93C38EBA29A8FAAC002FB0BC /* Preview Assets.xcassets */; };
+		93C38EC629A9D28A002FB0BC /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C38EC129A9D28A002FB0BC /* HomeTabView.swift */; };
+		93C38ED429A9DDA3002FB0BC /* FavoriteCurrencyPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C38ED229A9DDA3002FB0BC /* FavoriteCurrencyPair.swift */; };
+		93C38ED629A9E24C002FB0BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93C38ED529A9E24C002FB0BC /* Assets.xcassets */; };
+		93C38ED829A9E58D002FB0BC /* LotCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C38ED729A9E58D002FB0BC /* LotCalculator.swift */; };
+		93C38EDA29A9E5A4002FB0BC /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C38ED929A9E5A4002FB0BC /* Settings.swift */; };
+		93C38EDC29A9E5D0002FB0BC /* AllCurrencyPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C38EDB29A9E5D0002FB0BC /* AllCurrencyPair.swift */; };
+		93C38EDE29A9E613002FB0BC /* RiskReward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C38EDD29A9E613002FB0BC /* RiskReward.swift */; };
+		93C38EE329A9EB85002FB0BC /* PropertyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93C38EE029A9EB85002FB0BC /* PropertyList.plist */; };
+		93C38EE429A9EB85002FB0BC /* StoreKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C38EE129A9EB85002FB0BC /* StoreKitManager.swift */; };
+		93C38EE529A9EB85002FB0BC /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C38EE229A9EB85002FB0BC /* ProductView.swift */; };
+		93C38EE729AE2B97002FB0BC /* NetworkState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C38EE629AE2B97002FB0BC /* NetworkState.swift */; };
+		93C38EEB29B76A1E002FB0BC /* TradeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C38EEA29B76A1E002FB0BC /* TradeModel.swift */; };
+		93C38EED29B76C91002FB0BC /* LotCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C38EEC29B76C91002FB0BC /* LotCalculatorApp.swift */; };
+		93C38EEF29BA159E002FB0BC /* CurrencyPairModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C38EEE29BA159E002FB0BC /* CurrencyPairModel.swift */; };
+		93F0E46329C5580800CDCC43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F0E46229C5580800CDCC43 /* ContentView.swift */; };
+		93F0E46529C5CD7800CDCC43 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F0E46429C5CD7800CDCC43 /* TestView.swift */; };
+		93F0E46729CB2A8200CDCC43 /* CurrencyPairList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F0E46629CB2A8200CDCC43 /* CurrencyPairList.swift */; };
+		93F0E46929CF1A3100CDCC43 /* LotAndDefaultPairView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F0E46829CF1A3100CDCC43 /* LotAndDefaultPairView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		937E55B429FAA62E00441528 /* ResultLotSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultLotSize.swift; sourceTree = "<group>"; };
+		938CC1322A6AD5720018FE58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		93B830572A0D1B720062ACC3 /* SliderPips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderPips.swift; sourceTree = "<group>"; };
+		93C38EAF29A8FAA7002FB0BC /* LotCalculatorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LotCalculatorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C38EB829A8FAAC002FB0BC /* LotCalculatorApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LotCalculatorApp.entitlements; sourceTree = "<group>"; };
+		93C38EBA29A8FAAC002FB0BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		93C38EC129A9D28A002FB0BC /* HomeTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
+		93C38ED229A9DDA3002FB0BC /* FavoriteCurrencyPair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteCurrencyPair.swift; sourceTree = "<group>"; };
+		93C38ED529A9E24C002FB0BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../swift_practice/SwiftPractice/SwiftAPIPractice/SwiftAPIPractice/Assets.xcassets; sourceTree = "<group>"; };
+		93C38ED729A9E58D002FB0BC /* LotCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotCalculator.swift; sourceTree = "<group>"; };
+		93C38ED929A9E5A4002FB0BC /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		93C38EDB29A9E5D0002FB0BC /* AllCurrencyPair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCurrencyPair.swift; sourceTree = "<group>"; };
+		93C38EDD29A9E613002FB0BC /* RiskReward.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiskReward.swift; sourceTree = "<group>"; };
+		93C38EDF29A9EB4F002FB0BC /* Product.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Product.storekit; sourceTree = "<group>"; };
+		93C38EE029A9EB85002FB0BC /* PropertyList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PropertyList.plist; sourceTree = "<group>"; };
+		93C38EE129A9EB85002FB0BC /* StoreKitManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreKitManager.swift; sourceTree = "<group>"; };
+		93C38EE229A9EB85002FB0BC /* ProductView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		93C38EE629AE2B97002FB0BC /* NetworkState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkState.swift; sourceTree = "<group>"; };
+		93C38EEA29B76A1E002FB0BC /* TradeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeModel.swift; sourceTree = "<group>"; };
+		93C38EEC29B76C91002FB0BC /* LotCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotCalculatorApp.swift; sourceTree = "<group>"; };
+		93C38EEE29BA159E002FB0BC /* CurrencyPairModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPairModel.swift; sourceTree = "<group>"; };
+		93F0E46229C5580800CDCC43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		93F0E46429C5CD7800CDCC43 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		93F0E46629CB2A8200CDCC43 /* CurrencyPairList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPairList.swift; sourceTree = "<group>"; };
+		93F0E46829CF1A3100CDCC43 /* LotAndDefaultPairView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotAndDefaultPairView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93C38EAC29A8FAA7002FB0BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9337082529C1EE2D00D0A287 /* RealmSwift in Frameworks */,
+				9337082329C1EE2D00D0A287 /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9337082029BD99AA00D0A287 /* SettingView */ = {
+			isa = PBXGroup;
+			children = (
+				93C38ED929A9E5A4002FB0BC /* Settings.swift */,
+				93F0E46829CF1A3100CDCC43 /* LotAndDefaultPairView.swift */,
+				93C38EE229A9EB85002FB0BC /* ProductView.swift */,
+			);
+			path = SettingView;
+			sourceTree = "<group>";
+		};
+		93C38EA629A8FAA7002FB0BC = {
+			isa = PBXGroup;
+			children = (
+				93C38EB129A8FAA7002FB0BC /* LotCalculatorApp */,
+				93C38EB029A8FAA7002FB0BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93C38EB029A8FAA7002FB0BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93C38EAF29A8FAA7002FB0BC /* LotCalculatorApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93C38EB129A8FAA7002FB0BC /* LotCalculatorApp */ = {
+			isa = PBXGroup;
+			children = (
+				938CC1322A6AD5720018FE58 /* Info.plist */,
+				93C38EEC29B76C91002FB0BC /* LotCalculatorApp.swift */,
+				93F0E46229C5580800CDCC43 /* ContentView.swift */,
+				93C38EC129A9D28A002FB0BC /* HomeTabView.swift */,
+				93C38ED029A9DC36002FB0BC /* Model */,
+				93C38ECF29A9DC36002FB0BC /* View */,
+				93C38ED529A9E24C002FB0BC /* Assets.xcassets */,
+				93C38EE029A9EB85002FB0BC /* PropertyList.plist */,
+				93C38EDF29A9EB4F002FB0BC /* Product.storekit */,
+				93C38EB829A8FAAC002FB0BC /* LotCalculatorApp.entitlements */,
+				93C38EB929A8FAAC002FB0BC /* Preview Content */,
+			);
+			path = LotCalculatorApp;
+			sourceTree = "<group>";
+		};
+		93C38EB929A8FAAC002FB0BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				93C38EBA29A8FAAC002FB0BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		93C38ECF29A9DC36002FB0BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				93C38EDB29A9E5D0002FB0BC /* AllCurrencyPair.swift */,
+				93C38ED229A9DDA3002FB0BC /* FavoriteCurrencyPair.swift */,
+				93C38ED729A9E58D002FB0BC /* LotCalculator.swift */,
+				937E55B429FAA62E00441528 /* ResultLotSize.swift */,
+				93C38EDD29A9E613002FB0BC /* RiskReward.swift */,
+				93F0E46629CB2A8200CDCC43 /* CurrencyPairList.swift */,
+				93F0E46429C5CD7800CDCC43 /* TestView.swift */,
+				93B830572A0D1B720062ACC3 /* SliderPips.swift */,
+				9337082029BD99AA00D0A287 /* SettingView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		93C38ED029A9DC36002FB0BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				93C38EE129A9EB85002FB0BC /* StoreKitManager.swift */,
+				93C38EE629AE2B97002FB0BC /* NetworkState.swift */,
+				93C38EEA29B76A1E002FB0BC /* TradeModel.swift */,
+				93C38EEE29BA159E002FB0BC /* CurrencyPairModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93C38EAE29A8FAA7002FB0BC /* LotCalculatorApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93C38EBE29A8FAAC002FB0BC /* Build configuration list for PBXNativeTarget "LotCalculatorApp" */;
+			buildPhases = (
+				93C38EAB29A8FAA7002FB0BC /* Sources */,
+				93C38EAC29A8FAA7002FB0BC /* Frameworks */,
+				93C38EAD29A8FAA7002FB0BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LotCalculatorApp;
+			packageProductDependencies = (
+				9337082229C1EE2D00D0A287 /* Realm */,
+				9337082429C1EE2D00D0A287 /* RealmSwift */,
+			);
+			productName = LotCalculatorApp;
+			productReference = 93C38EAF29A8FAA7002FB0BC /* LotCalculatorApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93C38EA729A8FAA7002FB0BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					93C38EAE29A8FAA7002FB0BC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 93C38EAA29A8FAA7002FB0BC /* Build configuration list for PBXProject "LotCalculatorApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ja;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ja,
+			);
+			mainGroup = 93C38EA629A8FAA7002FB0BC;
+			packageReferences = (
+				9337082129C1EE2D00D0A287 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			productRefGroup = 93C38EB029A8FAA7002FB0BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93C38EAE29A8FAA7002FB0BC /* LotCalculatorApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93C38EAD29A8FAA7002FB0BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C38EBB29A8FAAC002FB0BC /* Preview Assets.xcassets in Resources */,
+				93C38EE329A9EB85002FB0BC /* PropertyList.plist in Resources */,
+				93C38ED629A9E24C002FB0BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93C38EAB29A8FAA7002FB0BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F0E46529C5CD7800CDCC43 /* TestView.swift in Sources */,
+				93C38EE429A9EB85002FB0BC /* StoreKitManager.swift in Sources */,
+				93C38EE529A9EB85002FB0BC /* ProductView.swift in Sources */,
+				93F0E46329C5580800CDCC43 /* ContentView.swift in Sources */,
+				93F0E46929CF1A3100CDCC43 /* LotAndDefaultPairView.swift in Sources */,
+				93C38EEF29BA159E002FB0BC /* CurrencyPairModel.swift in Sources */,
+				93C38EDC29A9E5D0002FB0BC /* AllCurrencyPair.swift in Sources */,
+				93C38EDE29A9E613002FB0BC /* RiskReward.swift in Sources */,
+				93C38EEB29B76A1E002FB0BC /* TradeModel.swift in Sources */,
+				937E55B529FAA62E00441528 /* ResultLotSize.swift in Sources */,
+				93F0E46729CB2A8200CDCC43 /* CurrencyPairList.swift in Sources */,
+				93C38EE729AE2B97002FB0BC /* NetworkState.swift in Sources */,
+				93C38EDA29A9E5A4002FB0BC /* Settings.swift in Sources */,
+				93C38EED29B76C91002FB0BC /* LotCalculatorApp.swift in Sources */,
+				93C38ED429A9DDA3002FB0BC /* FavoriteCurrencyPair.swift in Sources */,
+				93C38EC629A9D28A002FB0BC /* HomeTabView.swift in Sources */,
+				93B830582A0D1B720062ACC3 /* SliderPips.swift in Sources */,
+				93C38ED829A9E58D002FB0BC /* LotCalculator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		93C38EBC29A8FAAC002FB0BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93C38EBD29A8FAAC002FB0BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		93C38EBF29A8FAAC002FB0BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LotCalculatorApp/LotCalculatorApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"LotCalculatorApp/Preview Content\"";
+				DEVELOPMENT_TEAM = HQMBFBNNSU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LotCalculatorApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "FX LotSize";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuuki.LotCalculatorApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		93C38EC029A8FAAC002FB0BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LotCalculatorApp/LotCalculatorApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"LotCalculatorApp/Preview Content\"";
+				DEVELOPMENT_TEAM = HQMBFBNNSU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LotCalculatorApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "FX LotSize";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuuki.LotCalculatorApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93C38EAA29A8FAA7002FB0BC /* Build configuration list for PBXProject "LotCalculatorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C38EBC29A8FAAC002FB0BC /* Debug */,
+				93C38EBD29A8FAAC002FB0BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93C38EBE29A8FAAC002FB0BC /* Build configuration list for PBXNativeTarget "LotCalculatorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93C38EBF29A8FAAC002FB0BC /* Debug */,
+				93C38EC029A8FAAC002FB0BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9337082129C1EE2D00D0A287 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9337082229C1EE2D00D0A287 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9337082129C1EE2D00D0A287 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		9337082429C1EE2D00D0A287 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9337082129C1EE2D00D0A287 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 93C38EA729A8FAA7002FB0BC /* Project object */;
+}

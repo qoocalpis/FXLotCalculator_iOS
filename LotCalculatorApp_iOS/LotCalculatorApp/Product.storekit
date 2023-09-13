@@ -1,0 +1,38 @@
+{
+  "identifier" : "3297FFA4",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "6.89",
+      "familyShareable" : false,
+      "internalID" : "18889755",
+      "localizations" : [
+        {
+          "description" : "All currency pair",
+          "displayName" : "All currency pair",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "全通貨ペア",
+          "displayName" : "全通貨ペア",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "com.AllCurrencyPair.app",
+      "referenceName" : "AllCurrencyPair",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 2,
+    "minor" : 0
+  }
+}
