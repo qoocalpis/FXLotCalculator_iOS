@@ -22,7 +22,7 @@ struct CurrencyPair {
 func fetchCurrencyPair() async throws -> [CurrencyPair] {
     
     var array: [CurrencyPair] = []
-    guard let url = URL(string: "https://sheets.googleapis.com/v4/spreadsheets/1URRKa2jW3WMx34GgtDUU21kCYMKvdlG5fKmWwPUSnTE/values/finance?key=AIzaSyA0w_ZecwgQJ9XHcrfsxLpW92i_FacfzRU") else {
+    guard let url = URL(string: "https://sheets.googleapis.com/v4/spreadsheets/1URRKa2jW3WMx34GgtDUU21kCYMKvdlG5fKmWwPUSnTE/values/finance?key=*****************") else {
         throw FetchError.invalidURL
     }
     let (data, _) = try await URLSession.shared.data(from: url)
